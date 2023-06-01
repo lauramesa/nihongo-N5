@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.nav_test"
+    android:padding="30dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_pregunta1"
+                    android:textSize="@dimen/size_parrafoJapones"
+                    tools:ignore="SpUsage" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp">
+                    <RadioButton android:id="@+id/radio_resA1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_respuestaA1"
+                        android:onClick="RB_preguntas1"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resB1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas1"
+                        android:text="@string/text_respuestaB1"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resC1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas1"
+                        android:text="@string/text_respuestaC1"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resD1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas1"
+                        android:text="@string/text_respuestaD1"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                </RadioGroup>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_pregunta2"
+                    android:textSize="@dimen/size_parrafoJapones"
+                    tools:ignore="SpUsage" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp">
+                    <RadioButton android:id="@+id/radio_resA2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas2"
+                        android:text="@string/text_respuestaA2"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resB2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas2"
+                        android:text="@string/text_respuestaB2"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resC2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas2"
+                        android:text="@string/text_respuestaC2"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resD2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas2"
+                        android:text="@string/text_respuestaD2"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                </RadioGroup>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_pregunta3"
+                    android:textSize="@dimen/size_parrafoJapones"
+                    tools:ignore="SpUsage" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp">
+                    <RadioButton android:id="@+id/radio_resA3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas3"
+                        android:text="@string/text_respuestaA3"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resB3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas3"
+                        android:text="@string/text_respuestaB3"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resC3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas3"
+                        android:text="@string/text_respuestaC3"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resD3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas3"
+                        android:text="@string/text_respuestaD3"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                </RadioGroup>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_pregunta4"
+                    android:textSize="@dimen/size_parrafoJapones"
+                    tools:ignore="SpUsage" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp">
+                    <RadioButton android:id="@+id/radio_resA4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas4"
+                        android:text="@string/text_respuestaA4"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resB4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas4"
+                        android:text="@string/text_respuestaB4"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resC4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas4"
+                        android:text="@string/text_respuestaC4"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resD4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas4"
+                        android:text="@string/text_respuestaD4"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                </RadioGroup>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_pregunta5"
+                    android:textSize="@dimen/size_parrafoJapones"
+                    tools:ignore="SpUsage" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp">
+                    <RadioButton android:id="@+id/radio_resA5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas5"
+                        android:text="@string/text_respuestaA5"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resB5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas5"
+                        android:text="@string/text_respuestaB5"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resC5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas5"
+                        android:text="@string/text_respuestaC5"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resD5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas5"
+                        android:text="@string/text_respuestaD5"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                </RadioGroup>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_pregunta6"
+                    android:textSize="@dimen/size_parrafoJapones"
+                    tools:ignore="SpUsage" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp">
+                    <RadioButton android:id="@+id/radio_resA6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas6"
+                        android:text="@string/text_respuestaA6"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resB6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas6"
+                        android:text="@string/text_respuestaB6"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resC6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas6"
+                        android:text="@string/text_respuestaC6"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resD6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas6"
+                        android:text="@string/text_respuestaD6"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                </RadioGroup>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_pregunta7"
+                    android:textSize="@dimen/size_parrafoJapones"
+                    tools:ignore="SpUsage" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp">
+                    <RadioButton android:id="@+id/radio_resA7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas7"
+                        android:text="@string/text_respuestaA7"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resB7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas7"
+                        android:text="@string/text_respuestaB3"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resC7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas7"
+                        android:text="@string/text_respuestaC7"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resD7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas7"
+                        android:text="@string/text_respuestaD7"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                </RadioGroup>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_pregunta8"
+                    android:textSize="@dimen/size_parrafoJapones"
+                    tools:ignore="SpUsage" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp">
+                    <RadioButton android:id="@+id/radio_resA8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas8"
+                        android:text="@string/text_respuestaA8"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resB8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas8"
+                        android:text="@string/text_respuestaB8"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resC8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas8"
+                        android:text="@string/text_respuestaC8"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resD8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas8"
+                        android:text="@string/text_respuestaD8"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                </RadioGroup>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_pregunta9"
+                    android:textSize="@dimen/size_parrafoJapones"
+                    tools:ignore="SpUsage" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp">
+                    <RadioButton android:id="@+id/radio_resA9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas9"
+                        android:text="@string/text_respuestaA9"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resB9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas9"
+                        android:text="@string/text_respuestaB9"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                </RadioGroup>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_pregunta10"
+                    android:textSize="@dimen/size_parrafoJapones"
+                    tools:ignore="SpUsage" />
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:src="@drawable/parrafo" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp">
+                    <RadioButton android:id="@+id/radio_resA10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas10"
+                        android:text="@string/text_respuestaA10"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                    <RadioButton android:id="@+id/radio_resB10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="RB_preguntas10"
+                        android:text="@string/text_respuestaB10"
+                        android:textSize="@dimen/size_parrafo"
+                        tools:ignore="SpUsage" />
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+</FrameLayout>

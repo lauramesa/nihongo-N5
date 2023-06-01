@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_introduccion">
+    <fragment
+        android:id="@+id/nav_introduccion"
+        android:name="com.example.nihongon5.fragments.nav_introduccion"
+        android:label="@string/bar_intro"
+        tools:layout="@layout/fragment_nav_introduccion" />
+    <fragment
+        android:id="@+id/nav_alfabeto"
+        android:name="com.example.nihongon5.fragments.nav_alfabeto"
+        android:label="@string/bar_alfa"
+        tools:layout="@layout/fragment_nav_alfabeto" />
+    <fragment
+        android:id="@+id/nav_vocabulario"
+        android:name="com.example.nihongon5.fragments.nav_vocabulario"
+        android:label="@string/bar_voca"
+        tools:layout="@layout/fragment_nav_vocabulario" />
+    <fragment
+        android:id="@+id/nav_conversacion"
+        android:name="com.example.nihongon5.fragments.nav_conversacion"
+        android:label="@string/menu_conversacion"
+        tools:layout="@layout/fragment_nav_conversacion" />
+    <fragment
+        android:id="@+id/nav_test"
+        android:name="com.example.nihongon5.fragments.nav_test"
+        android:label="@string/menu_testN5"
+        tools:layout="@layout/fragment_nav_test" />
+</navigation>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.nav_introduccion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:padding="30dp">
+            <TextView
+                android:id="@+id/titulo_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tituloIntroduccion"
+                android:textSize="25dp"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/lorem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_intro1"
+                android:textSize="15dp"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+            <ImageView
+                android:id="@+id/ejemplo1"
+                android:layout_width="wrap_content"
+                android:layout_height="156dp"
+                android:src="@drawable/intro_arbol" />
+            <TextView
+                android:id="@+id/lorem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_intro2"
+                android:textSize="15dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/lorem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_intro3"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:id="@+id/ejemplo2"
+                android:layout_width="wrap_content"
+                android:layout_height="231dp"
+                android:src="@drawable/intro_ejem" />
+            <TextView
+                android:id="@+id/lorem4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_intro3"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

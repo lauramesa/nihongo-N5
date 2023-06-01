@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">nihongo N5</string>
+    <!-- TODO: textos del inicio del sesion -->
+    <string name="username">usuario</string>
+    <string name="password">contraseña</string>
+    <string name="login">iniciar session</string>
+    <string name="signIn">registrarse</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nihongo N5</string>
+    <string name="nav_header_subtitle">aplicacion para introducirse en el idioma japones</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- TODO: textos del Menu-->
+    <string name="action_settings">Settings</string>
+    <!-- TODO: textos  del Drawer navegation -->
+    <string name="menu_introduccion">Introduccion</string>
+    <string name="menu_alfabeto">Alfabeto</string>
+    <string name="menu_vocabulario">Vocabulario</string>
+    <string name="menu_conversacion">Conversacion</string>
+    <string name="menu_testN5">set de preguntas</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Textos del fragmento introduccion -->
+    <string name="bar_intro"><b>Introduccion</b></string>
+    <string name="tituloIntroduccion"><b>Sistema de escritura</b></string>
+    <string name="text_intro1">
+        Hay que tener en cuenta que los mas antiguos sistemas de escritura eran <b>pictogramas</b> en otras palabras <b>Dibujos que representaban ideas.</b>
+    </string>
+    <string name="text_intro2">
+        Algunos de esos caracteres se simplificaron y vinieron a significar los sonidos del <b><i>lenguaje hablado.</i></b> prevaleciendo entonces
+        el sistema fonetico. En china, el sistema pictografico permanecio intacto hasta la era actual.
+    </string>
+    <string name="text_intro3">
+         Pero en el japon moderno, talvez
+        debido a las diferencias morfologicas y gramaticas entre <b>el chino</b> y <b>el japones</b>, ambos metodos coexisten en el lenguaje escrito.
+    </string>
+    <string name="text_intro4">
+        En el siglo <b>III</b> y <b>IV DC.</b> los imigrantes chinos y coreanos trajeron los caracteres escritos conocidos como <b>kanji</b>
+        El lenguaje japones existia solamente de forma hablada, pues los caracteres chinos fueron adaptados por unos 400 años para expresar
+        el lenguaje oral japones en escritura.
+    </string>
+
+    <!-- TODO: textos del fragmento alfabeto -->
+    <string name="bar_alfa"><b>silabario japones</b></string>
+    <string name="tituloAlfabeto"><b>SILABAS</b></string>
+    <string name="text_introduccion0">Vamos a empezar por lo más básico y fundamental:<i><b>la escritura.</b></i> </string>
+    <string name="TEXT_introduccion1">
+        En japonés no existe un alfabeto propiamente dicho, sino que existen dos silabarios: el <b>hiragana(ひらがな)</b> y el <b>katakana(カタカナ)</b>.
+        Un carácter japonés equivale generalmente a una sílaba de dos letras en nuestro idioma. Tanto el hiragana como el katakana tienen 46 símbolos silábicos:
+    </string>
+    <string name="text_introducion2">
+        El <b>hiragana</b> es el más importante y usado de los dos, ya que se usa para escribir las palabras propiamente japonesas
+    </string>
+    <string name="text_introducion3">
+        el <b>katakana</b> se usa para palabras adoptadas del extranjero.
+    </string>
+    <string name="text_cardV1"><b>「 Hiragana 」</b></string>
+    <string name="text_cardV2"><b>「 Katakana 」</b></string>
+    <string name="text_cardV3"><b>「 Compuestos 」</b></string>
+    <!-- TODO: textos del fragmento Vocabulario -->
+    <string name="bar_voca"><b>Vocabulario basico</b></string>
+
+    <!-- TODO: textos del fragmento Conversacion -->
+    <string name="bar_conv"><b>Conversaciones</b></string>
+    <string name="text_con1"><b>「なんと大きな桃じゃろう！家に持って帰ろう。」</b> \n とおばあさんは背中に担いで帰って行きました。
+    桃を切ろうとすると、桃から大きな赤ん坊が出てきました。\n <b>「おっとたまげた。」</b>\nun 二人は驚いたけれども、とても幸せでした。
+    \n <b>「何という名前にしましょうか。」</b> \n <b>「桃から生まれたから、桃太郎というのはどうだろう。」</b> \n <b>「それがいい。」</b>
+    </string>
+    <string name="text_con2">
+        桃太郎はあっと言う間に大きくなり、立派な優しい男の子になりました。
+    ある日のことです。桃太郎は二人に言いました。 \n
+    <b>「鬼ケ島に悪い鬼が住んでいると聞きました。」</b> \n
+    <b>「時々村に来て悪いことをするのでみんな困っている。」</b>とおじいさんが言いました。 \n
+    <b>「それでは私が行って退治しましょう。おかあさん、きび団子を作って下さい。」</b> \n
+    おばあさんはとてもおいしい日本一のきび団子を作りました。桃太郎は腰の袋に入れるとさっそく鬼ケ島に向けて旅立ちました。
+    途中、桃太郎は犬に会いました。
+    </string>
+    <string name="text_con3">
+        <b>「桃太郎さん、袋の中に何が入っているだい。」</b> /n
+    「日本一のきび団子だよ。」
+    「僕に一つくれればお伴します。」犬は桃太郎から一つ団子をもらい家来になりました。
+    桃太郎と犬が歩いて行くと、猿がやってきました。
+    「桃太郎さん、袋の中に何が入っているんだい。」
+    「日本一のきび団子だよ。」
+    「僕に一つくれればお伴します。」猿は桃太郎から一つ団子をもらい家来になりました。
+    しばらく行くと、雉が飛んできました。
+    </string>
+
+
+    <!-- TODO: textos del fragmento test -->
+    <string name="bar_test"><b>preguntas</b></string>
+
+    <string name="text_pregunta1"><b>質問1:</b> 私の傘は青い </string>
+    <string name="text_respuestaA1"> わたしのかさはあおい</string>
+    <string name="text_respuestaB1">あなたのかきはあお</string>
+    <string name="text_respuestaC1">わたしはかさはあおい</string>
+    <string name="text_respuestaD1">わたしのかさはあお</string>
+    <string name="text_pregunta2"><b>質問2:</b> 私は黒猫を飼っています</string>
+    <string name="text_respuestaA2">わたしはねこくろをかってます</string>
+    <string name="text_respuestaB2">わたしはくろねこをかつてます</string>
+    <string name="text_respuestaC2">わたしはくろねこをかってます</string>
+    <string name="text_respuestaD2">あなたはくろねこをかってます</string>
+    <string name="text_pregunta3"><b>質問3:</b> \n <b>まこと:</b> あなたの家は<u>何色</u>ですか？ \n <b>リムロ：</b>私の家は緑です</string>
+    <string name="text_respuestaA3">ねないろ</string>
+    <string name="text_respuestaB3">なにいろ</string>
+    <string name="text_respuestaC3">なねいろ</string>
+    <string name="text_respuestaD3">なにいろい</string>
+    <string name="text_pregunta4"><b>質問4:</b>  \n <b>まこと:</b> あなたの家は何色ですか？ \n <b>リムロ：</b><u>私の家は緑です</u> </string>
+    <string name="text_respuestaA4">リムろのいえはみどり</string>
+    <string name="text_respuestaB4">リムろのいいえはみどり</string>
+    <string name="text_respuestaC4">リムろのいえはみとり</string>
+    <string name="text_respuestaD4">リムろのいいいえはみとり</string>
+    <string name="text_pregunta5"><b>質問5: この魚は美味しいです</b> </string>
+    <string name="text_respuestaA5">このさかなはおいしいです</string>
+    <string name="text_respuestaB5">このさかなはおしいです</string>
+    <string name="text_respuestaC5">このさかなはおいしです</string>
+    <string name="text_respuestaD5">このさかなはおいしいてす</string>
+    <string name="text_pregunta6"><b>質問6: お父さんは会社員です</b> </string>
+    <string name="text_respuestaA6">かいしやいん</string>
+    <string name="text_respuestaB6">かぃちやいん</string>
+    <string name="text_respuestaC6">かいちゃいいん</string>
+    <string name="text_respuestaD6">かいしゃいん</string>
+    <string name="text_pregunta7"><b>質問7: cómo se Lee este número 578</b> </string>
+    <string name="text_respuestaA7">ごひゃくななじゅうはち</string>
+    <string name="text_respuestaB7">ごひくななじゅうはち</string>
+    <string name="text_respuestaC7">ごひゃくななはち</string>
+    <string name="text_respuestaD7">ごひやくななはち</string>
+    <string name="text_pregunta8"><b>質問8: cómo se Lee este número 3654</b> </string>
+    <string name="text_respuestaA8">さんんぜんろつひくごゆうよん</string>
+    <string name="text_respuestaB8">さんぜんろっぴくごゅうよん</string>
+    <string name="text_respuestaC8">さんせんろつびくごゆうよん</string>
+    <string name="text_respuestaD8">さんんぜんろつぴくごゅうよん</string>
+    <string name="text_pregunta9"><b>質問9:</b>\n <b>まこと:</b> あのう、すいません、リムろさんは高校生ですか。
+        \n <b>リムロ：</b>いいえ、高校生しょないですだいがくせいです。やまださんは？
+        \n <b>まこと:</b>あ～・・・そうですね、私はいしゃです。
+        \n Segun en parrafo, es correcto afirmar que リムろさんはこうこうせいですか </string>
+    <string name="text_respuestaA9">falso</string>
+    <string name="text_respuestaB9">verdadero</string>
+    <string name="text_pregunta10"><b>質問10:</b>  segun este texto las clases valen 3000 yen</string>
+    <string name="text_respuestaA10">falso</string>
+    <string name="text_respuestaB10">verdadero</string>
+
+    <!-- TODO: Textos del sobre la app -->
+    <string name="about"><b>sobre de..</b></string>
+    <string name="tituloAbout"><b>Desarollado por:</b></string>
+    <string name="tituloAboutName"><b>RendonMesaLaura</b></string>
+    <string name="text_about1">
+        A continuacion se presenta un breve compedio de la gramatica japonesa, vocabulario y textos, preparado para
+        personas de habla hispana, que quieran iniciar en este lenguaje.
+    </string>
+    <string name="text_about">
+        Que aunque este contenido es limitado en su alcance, esta desarrollado para personas con conocimiencos casi nulos,
+        y desean adquirir un vocabulario basico para abordar el aprendizaje del idioma japones.
+    </string>
+    <string name="text_about3">
+        Y debe considerarse como reduccion de una obra de mas alcance en preparacion todavia
+    </string>
+    <string name="text_about4">
+        Cualquier sugerencia o duda sobre el material presentado puede ser enviada a:
+    </string>
+    <string name="text_about5"><b>lauramesa71@gmail.com</b></string>
+
+</resources>

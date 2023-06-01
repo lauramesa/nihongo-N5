@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_introduccion"
+            android:icon="@drawable/ic_intro"
+            android:title="@string/menu_introduccion" />
+        <item
+            android:id="@+id/nav_alfabeto"
+            android:icon="@drawable/ic_alfabeto"
+            android:title="@string/menu_alfabeto" />
+        <item
+            android:id="@+id/nav_vocabulario"
+            android:icon="@drawable/ic_vocabulario"
+            android:title="@string/menu_vocabulario" />
+        <item
+            android:id="@+id/nav_conversacion"
+            android:icon="@drawable/ic_conversacion"
+            android:title="@string/menu_conversacion" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_test"
+            android:title="@string/menu_testN5" />
+    </group>
+</menu>
